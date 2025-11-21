@@ -1,5 +1,5 @@
 {
-    "color_and_hello": {
+    "neovim-prebuilt": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
             "neovim-prebuilt": {
