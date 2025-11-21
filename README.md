@@ -16,12 +16,12 @@ Install NeoVim instantly from pre-built binaries
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| Version | Choose `latest`, `nightly` or a version like `v0.11.5` | string | `latest` |
+| Version | Choose `stable`, `nightly` or a version like `v0.11.5` | string | `stable` |
 
 **Advantages** :
 
 - Build instantly, no OS update or installation required
-- Guaranteed latest neovim version
+- Guaranteed stable neovim version
 - Works on any distro
 - Works for any user that can execute software in /bin (usually any user)
 

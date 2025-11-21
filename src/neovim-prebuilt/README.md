@@ -15,4 +15,4 @@ Install NeoVim instantly from pre-built binaries
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| Version | Choose `latest`, `nightly` or a version like `v0.11.5` | string | `latest` |
+| Version | Choose `stable`, `nightly` or a version like `v0.11.5` | string | `stable` |

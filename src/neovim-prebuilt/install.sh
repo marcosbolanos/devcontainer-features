@@ -10,14 +10,14 @@ if ! command -v curl >/dev/null 2>&1; then
   apt-get update && apt-get install -y curl
 fi
 
-echo "Installing $VERSION version"
+echo "Installing version: $VERSION"
 
-LATEST_URL="https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.tar.gz"
+STABLE_URL="https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.tar.gz"
 NIGHTLY_URL="https://github.com/neovim/neovim/releases/download/nightly/nvim-linux-x86_64.tar.gz"
 
 case $VERSION in
 stable)
-  URL=$LATEST_URL
+  URL=$STABLE_URL
   ;;
 nightly)
   URL=$NIGHTLY_URL
